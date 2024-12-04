@@ -618,8 +618,6 @@ body {
   letter-spacing: 6px;
   font-size: 20px;
   fill: #fff;
-  -webkit-animation-play-state: running;
-  animation-play-state: running;
   -webkit-animation: rotate 15s infinite forwards;
   animation: rotate 15s infinite forwards
 }
@@ -1955,7 +1953,7 @@ body {
     -webkit-transform: scale(1.5);
     transform: scale(1.5)
   }
-  .images-hero__button:hover .circle {
+  .images-hero__button:hover.circle {
     -webkit-animation-play-state: paused;
     animation-play-state: paused
   }
